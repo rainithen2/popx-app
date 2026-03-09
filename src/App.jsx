@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter , Routes, Route } from 'react-router-dom'
-import Welcome from './pages/Welcome/Welcome.jsx'
-import SignIn from './pages/SignIn/SignIn.jsx'
-import SignUp from './pages/SignUp/SignUp.jsx'
-import Account from './pages/Account/Account'
+import Welcome from './pages/Welcome/Welcome.jsx'   
+import SignIn from './pages/SignIn/SignIn.jsx'      
+import SignUp from './pages/SignUp/SignUp.jsx'      
+import Account from './pages/Account/Account.jsx'
 const App = () => {
   return (
     <BrowserRouter>
