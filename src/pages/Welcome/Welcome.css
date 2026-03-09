@@ -1,0 +1,68 @@
+.container{
+    background-color: #ebf2f8;
+    border: 1px solid rgb(220, 220, 249);
+    max-width: 350px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    margin:auto;
+}
+.container-title{
+    margin-right: 70px;
+}
+.title{
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+.sub-title{
+    font-size: 16px;
+    color: rgb(125, 123, 126);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+/* Button Css */
+ .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn-createAccount {
+    background-color: #6c25ff;
+    width: 200px ;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+}
+
+.btn-createAccount:hover {
+    background-color: #5a1fd6;
+    color: white;
+}
+
+.btn-login {
+    background-color: #d7c6f8;
+    color: #1a1a1a;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn-login:hover {
+    background-color: #c5b0f0;
+}
