@@ -36,7 +36,7 @@ const SignUp = () => {
             placeholder='Marry Doe'
             value={formData.fullName}
             onChange={handleChange}
-            required
+            
             />
         </fieldset>
         <fieldset>
@@ -46,17 +46,17 @@ const SignUp = () => {
             placeholder='Marry Doe'
             value={formData.phoneNumber}
             onChange={handleChange}
-            required
+            
             />
         </fieldset>
         <fieldset>
             <legend>Email address*</legend>
             <input 
-            type="email"
+            type="text"
             placeholder='Marry Doe'
             value={formData.email}
             onChange={handleChange}
-            required
+            
             />
         </fieldset>
         <fieldset>
@@ -66,7 +66,7 @@ const SignUp = () => {
             placeholder='Marry Doe'
             value={formData.password}
             onChange={handleChange}
-            required
+            
             />
         </fieldset>
         <fieldset>
@@ -76,7 +76,7 @@ const SignUp = () => {
             placeholder='Marry Doe'
             value={formData.companyName}
             onChange={handleChange}
-            required
+            
             />
         </fieldset>
         <div className="signup-form-group">
